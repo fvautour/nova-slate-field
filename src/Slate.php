@@ -3,8 +3,6 @@
 namespace BBSLab\NovaSlateField;
 
 use Laravel\Nova\Fields\Field;
-use Laravel\Nova\Fields\FieldCollection;
-use Laravel\Nova\Http\Requests\NovaRequest;
 
 class Slate extends Field
 {
@@ -16,7 +14,7 @@ class Slate extends Field
     public $component = 'nova-slate-field';
 
     /**
-     * Entry types for link resource feature
+     * Entry types for link resource feature.
      *
      * @var array
      */
