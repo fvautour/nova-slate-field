@@ -1,0 +1,22 @@
+// Nova Tool CSS
+
+$material-icons-font-path: '~material-icons/iconfont/';
+
+@import '~material-icons/iconfont/material-icons.scss';
+
+div.slate-editable {
+  h1 {
+    display: inherit;
+  }
+
+  blockquote {
+    background: var(--30);
+    border-left: 0.5em solid var(--80);
+    padding: 0.5em 10px;
+    border-radius: 0.25em;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+}
