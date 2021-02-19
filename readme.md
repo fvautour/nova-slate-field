@@ -1,7 +1,7 @@
 # Laravel Nova Slate field
 
-[![StyleCI](https://styleci.io/repos/221661972/shield)](https://styleci.io/repos/221661972)
-[![Quality Score](https://img.shields.io/scrutinizer/g/bbs-lab/nova-translation.svg?style=flat-square)](https://scrutinizer-ci.com/g/bbs-lab/nova-translation)
+[![StyleCI](https://styleci.io/repos/340378574/shield)](https://styleci.io/repos/340378574)
+[![Quality Score](https://img.shields.io/scrutinizer/g/bbs-lab/nova-slate-field.svg?style=flat-square)](https://scrutinizer-ci.com/g/bbs-lab/nova-slate-field)
 
 ## Contents
 
