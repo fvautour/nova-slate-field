@@ -127,7 +127,7 @@ class ResourceMorphTo extends Field implements RelatableField
     }
 
     /**
-     * Retrieve model value
+     * Retrieve model value.
      *
      * @return \Illuminate\Database\Eloquent\Model|null
      */
