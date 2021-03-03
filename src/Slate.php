@@ -20,9 +20,18 @@ class Slate extends Field
      */
     public $entryTypes = [];
 
+    public $limit = 60;
+
     public function withEntryTypes(array $types)
     {
         $this->entryTypes = $types;
+
+        return $this;
+    }
+
+    public function limit(int $limit)
+    {
+        $this->limit = $limit;
 
         return $this;
     }
@@ -47,6 +56,7 @@ class Slate extends Field
     {
         return array_merge(parent::jsonSerialize(), [
             'entry_field' => $this->entryField(),
+            'limit' => $this->limit,
         ]);
     }
 }

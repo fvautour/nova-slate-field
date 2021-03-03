@@ -14,6 +14,7 @@ import FormResourceMorphToField from './components/Form/ResourceMorphToField'
 
 import FormSlateField from './components/Form/SlateField'
 import DetailSlateField from './components/Detail/SlateField'
+import IndexSlateField from './components/Index/SlateField'
 
 Vue.use(SlatePlugin)
 
@@ -28,9 +29,9 @@ Nova.booting((Vue, router, store) => {
   Vue.component('slate-resource-button', ResourceButton)
   // Vue.component('entry-void', EntryVoid)
 
-
   Vue.component('form-resource-morph-to-field', FormResourceMorphToField)
 
   Vue.component('detail-nova-slate-field', DetailSlateField)
   Vue.component('form-nova-slate-field', FormSlateField)
+  Vue.component('index-nova-slate-field', IndexSlateField)
 })
