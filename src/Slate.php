@@ -52,7 +52,7 @@ class Slate extends Field
             ->withSubtitles();
     }
 
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
         return array_merge(parent::jsonSerialize(), [
             'entry_field' => $this->entryField(),
